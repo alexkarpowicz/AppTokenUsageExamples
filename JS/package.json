@@ -3,15 +3,17 @@
   "lockfileVersion": 1,
   "name": "app-token",
   "version": "1.0.0",
-  "main": "AppTokenJsExample.js",
+  "main": "app.js",
   "scripts": {
-    "run": "node AppTokenJsExample.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "axios": "^1.12.0",
+    "express": "^4.18.2",
     "form-data": "^4.0.0"
   }
 }
