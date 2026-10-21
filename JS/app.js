@@ -36,12 +36,6 @@ app.post('/upload/:applicantId', async (req, res) => {
           idDocType: 'DRIVERS',
           idDocSubType: docType === 'front' ? 'FRONT_SIDE' : 'BACK_SIDE',
           country: 'USA',
-          firstName: 'ADAM',
-          lastName: 'JOHNSON',
-          number: 'J46200159080016',
-          issuedDate: '2025-01-13',
-          validUntil: '2030-01-13',
-          dob: '1990-10-16',
         };
       }
 
