@@ -33,13 +33,15 @@ app.post('/upload/:applicantId', async (req, res) => {
         };
       } else {
         metadata = {
-          idDocType: 'ID_CARD',
+          idDocType: 'DRIVERS',
           idDocSubType: docType === 'front' ? 'FRONT_SIDE' : 'BACK_SIDE',
           country: 'USA',
-          number: '123456789',
-          issuedDate: '2026-01-02',
-          dob: '2000-02-01',
-          placeOfBirth: 'NY',
+          firstName: 'ADAM',
+          lastName: 'JOHNSON',
+          number: 'J46200159080016',
+          issuedDate: '2025-01-13',
+          validUntil: '2030-01-13',
+          dob: '1990-10-16',
         };
       }
 
