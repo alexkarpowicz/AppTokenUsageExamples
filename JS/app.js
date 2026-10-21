@@ -18,7 +18,7 @@ app.post('/upload/:applicantId', async (req, res) => {
     });
   }
 
-  const docTypes = ['front', 'back', 'selfie'];
+  const docTypes = ['front', 'back'];
   const uploadResults = [];
 
   try {
